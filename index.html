@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>System of Equations Solver</h2>
+        <form id="no-of-eqns" action="#">    
+            <h4><span style="color:#1f3baa;">>></span> Enter the no. of unknown variables.</h4>
+            <div class="input">
+                <input type="number" value="2">
+                <button type="submit">Proceed</button>
+            </div>
+            <p class="message"></p>
+        </form>
+        <form class="eqns-container" action="#">
+        </form>
+        <div class="button">
+            <button class="hidden" id="calculate">Calculate</button>
+        </div>
+        <div class="result"></div>
+        <script src="./app.js"></script>
+    </div>
+</body>
+</html>

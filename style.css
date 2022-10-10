@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+.hidden{
+    display: none;
+}
+body{
+    min-height: 100vh;
+    background-color: #f1f5f8;
+    display: flex;
+}
+.main-container{
+    text-align: center;
+    width:80%;
+    max-width:800px;
+    min-width: 340px;
+    padding:10px;
+    box-shadow: 0px 0px 16px #0000006e;
+    border-radius: 10px;
+    background-color: white;
+    margin:30px auto;
+}
+.main-container h2{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color:#103522;
+    margin-top:18px;
+    margin-bottom:10px;
+}
+#no-of-eqns{
+    padding:6px;
+}
+#no-of-eqns h4{
+    margin-top:10px;
+    margin-bottom:20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 1rem;
+}
+#no-of-eqns .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap:25px;
+}
+#no-of-eqns input{
+    width:210px;
+    height:35px;
+    padding:5px;
+    border-color: #1f3baa;
+    border-radius: 10px;
+    margin-right:10px;
+}
+#no-of-eqns button{
+    height:35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding:6px 8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color:white;
+    background-color: #1f3baa;
+}
+.message{
+    color:red;
+    margin-top:6px;
+}
+.eqns-container{
+    padding: 0px 6px;
+    margin-top:18px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.eqns{
+    min-width: 100%;
+    padding: 4px 3px;
+    height:36px;
+    white-space: nowrap;
+}
+.overflow{
+    overflow-x: scroll;
+}
+.eqns input{
+    max-width: 40px;
+}
+.button{
+    text-align: center;
+}
+#calculate{
+    width:50%;
+    max-width: 208px;
+    height:50px;
+    margin: 10px auto;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:white;
+    background-color: #1f3baa;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.result{
+    margin: 10px auto;
+    width: 80%;
+}
+.result fieldset{
+    border: 2px solid #1f3baa;
+    border-radius: 20px;
+    padding:10px 0px;
+}
+.result h3{
+    font-size: 26px;
+    letter-spacing: 2px;
+    color:#0f0f7d;
+}
+.result span{
+    display: inline-block;
+    margin:3px;
+    line-height: 53px;
+}
+.result span input{
+    height: 43px;
+    background-color: rgb(182, 182, 236);
+    font-size: 16px;
+    padding-left: 5px;
+    width: 74px;
+    border-radius: 9px;
+}
