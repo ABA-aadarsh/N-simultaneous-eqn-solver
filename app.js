@@ -130,7 +130,7 @@ btn.addEventListener("click",(e)=>{
             setEqns(n)
         }
         else{
-            message1.innerHTML="Please enter a number greater than 2"
+            message1.innerHTML="Please enter a number greater than 1"
             eqnsContainer.innerHTML=""
             resultDisplay.innerHTML=""
 
