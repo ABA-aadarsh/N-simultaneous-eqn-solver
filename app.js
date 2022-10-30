@@ -152,7 +152,7 @@ calcbtn.addEventListener("click",()=>{
         let temp=[]
         for(let j=1;j<=n+1;j++){
             let selector=`#eqn${i} .a${j}`
-            let z=parseInt(document.querySelector(selector).value)
+            let z=parseFloat(document.querySelector(selector).value)
             temp.push(z)
         }
         coeff.push(temp)
