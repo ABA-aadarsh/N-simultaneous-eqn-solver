@@ -53,3 +53,5 @@ Through loop we perfrom following operation
 **Reduce** and **Retrieval** Part is done through functions
 
 Note: I oversimplified the concept. However this is main algorithm. You need to make adjustment such that it is flexible for any given number of equations.
+
+**Thanks to Ashraya Khanal to encourage me to write this documentation**
