@@ -50,6 +50,6 @@ Through loop we perfrom following operation
 
 (30-12***1**)/18=1, This is value of x *( **1** is value of y we just got earlier)*
 
-Reduce and Retrieval Part is done through functions
+**Reduce** and **Retrieval** Part is done through functions
 
 Note: I oversimplified the concept. However this is main algorithm. You need to make adjustment such that it is flexible for any given number of equations.
