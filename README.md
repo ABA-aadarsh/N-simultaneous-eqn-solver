@@ -48,7 +48,7 @@ Then we backtrack into previous arrays (stored in eqns) and retrieve the another
 
 Through loop we perfrom following operation 
 
-`(30-12***1**)/18=1`, This is value of x *( **1** is value of y we just got earlier)*
+(30-12* **1**)/18=1, This is value of x *( **1** is value of y we just got earlier)*
 
 **Reduce** and **Retrieval** Part is done through functions
 
