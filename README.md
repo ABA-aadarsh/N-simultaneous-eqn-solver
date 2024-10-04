@@ -1,6 +1,8 @@
-# eqn-solver
+# N simultaneous eqn solver
 
-Link: https://eqnsolver.netlify.app
+Deployed Link: https://eqnsolver.netlify.app
+
+![image](https://github.com/user-attachments/assets/1d35e932-e76d-4c9d-9199-8e67da7579a0)
 
 This program solves system of linear equation through **Elimination Method**
 
